@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelime Sarmalı</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Kelime Sarmalı</h1>
+        <p id="slogan">Kelimeleri çöz, zihnini genişlet!</p>
+        <div id="alert-bar" class="hidden"></div>
+        <canvas id="game-canvas"></canvas>
+        <div id="controls">
+            <input type="text" id="word-input" placeholder="Kelime girin">
+            <button id="submit-word">Gönder</button>
+        </div>
+        <div id="score">Puan: <span id="score-value">0</span></div>
+        <div id="time">Süre: <span id="time-value">60</span></div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
